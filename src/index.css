@@ -1,58 +1,53 @@
 :root {
-  /* Light theme colors */
-  --bg: #0f0f10;
-  --fg: #e7e7e9;
-  --muted: #9aa0a6;
-  --border: #2b2b2e;
-  --accent: #7c8cff;
-}
+  --bg: #090a10;
+  --fg: #f3f6fb;
+  --muted: #a4afc0;
 
-@media (prefers-color-scheme: light) {
-  :root {
-    /* Dark theme colors for media query */
-    --bg: #ffffff;
-    --fg: #1d1d1f;
-    --muted: #6e6e73;
-    --border: #e5e5ea;
-    --accent: #3c5cff;
-  }
-}
+  --accent-1: #ff7aa6;
+  --accent-4: #7dfc98;
+  --accent-5: #5ad1ff;
 
-* {
-    box-sizing: border-box;
-}
+  --surface-1: #111626;
+  --surface-2: #0e1321;
+  --panel: #0f1628;
+  --border: #1a2240;
 
-html,
-body,
-#root {
-    height: 100%;
+  --radius: 14px;
+  --shadow-1: 0 10px 30px rgba(0,0,0,.35);
+  --h1: clamp(1.9rem, 1.2rem + 2.6vw, 2.6rem);
 }
 
 body {
-    margin: 0;
-    font-family:
-        system-ui,
-        -apple-system,
-        Segoe UI,
-        Roboto,
-        Ubuntu,
-        Cantarell,
-        Noto Sans,
-        Helvetica,
-        Arial,
-        "Apple Color Emoji",
-        "Segoe UI Emoji";
-    color: var(--fg);
-    background: var(--bg);
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: var(--fg);
+  background: radial-gradient(1000px 600px at 80% 0%, rgba(90, 209, 255, .15), transparent 55%),
+              radial-gradient(1200px 600px at 0% 0%, rgba(255, 122, 166, .15), transparent 45%),
+              var(--bg);
 }
 
-a {
-    color: var(--accent);
+button, input {
+  font: inherit;
+  color: inherit;
 }
 
-button,
-input,
-select {
-    font: inherit;
-    color: inherit;
+:focus-visible {
+  outline: 3px solid color-mix(in oklab, var(--accent-5) 70%, transparent);
+  outline-offset: 3px;
+  border-radius: var(--radius);
+}
+
+.site-header {
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.site-header h1 {
+  font-size: var(--h1);
+  font-weight: 900;
+  letter-spacing: .3px;
+  background: linear-gradient(90deg, var(--accent-1), var(--accent-4), var(--accent-5));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }

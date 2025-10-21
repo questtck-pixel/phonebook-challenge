@@ -1,32 +1,12 @@
 [
-    {
-        "id": 101,
-        "name": "Ada Lovelace",
-        "phone": "(555) 010-0101",
-        "email": "ada@example.com"
-    },
-    {
-        "id": 102,
-        "name": "Alan Turing",
-        "phone": "(555) 010-0102",
-        "email": "alan@example.com"
-    },
-    {
-        "id": 103,
-        "name": "Grace Hopper",
-        "phone": "(555) 010-0103",
-        "email": "grace@example.com"
-    },
-    {
-        "id": 104,
-        "name": "Katherine Johnson",
-        "phone": "(555) 010-0104",
-        "email": "katherine@example.com"
-    },
-    {
-        "id": 105,
-        "name": "Donald Knuth",
-        "phone": "(555) 010-0105",
-        "email": "donald@example.com"
-    }
+  { "id": 1,  "name": "Ahmed Hamido",     "phone": "(646) 715-9775", "email": "enm7781@gmail.com" },
+  { "id": 2,  "name": "Sophia Martinez",  "phone": "(917) 284-6120", "email": "sophiamnyc@gmail.com" },
+  { "id": 3,  "name": "Liam Johnson",     "phone": "(347) 602-1943", "email": "liamjny@gmail.com" },
+  { "id": 4,  "name": "Ava Chen",         "phone": "(929) 331-7854", "email": "avachenbk@gmail.com" },
+  { "id": 5,  "name": "Noah Patel",       "phone": "(212) 997-4830", "email": "noahpatelny@gmail.com" },
+  { "id": 6,  "name": "Isabella Rivera",  "phone": "(718) 940-2257", "email": "isabellanyc@gmail.com" },
+  { "id": 7,  "name": "Ethan Kim",        "phone": "(646) 812-4389", "email": "ethankny@gmail.com" },
+  { "id": 8,  "name": "Maya Thompson",    "phone": "(929) 458-6732", "email": "mayathompsonny@gmail.com" },
+  { "id": 9,  "name": "Daniel Rossi",     "phone": "(917) 526-9981", "email": "danielrossiny@gmail.com" },
+  { "id": 10, "name": "Olivia Brown",     "phone": "(718) 247-5564", "email": "oliviabny@gmail.com" }
 ]
